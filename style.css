@@ -1,0 +1,111 @@
+.menu {
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    color: mediumseagreen;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: monospace;
+    font-size: 20px
+}
+
+.links:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+marquee {
+    font-family: monospace;
+}
+
+h2 {
+    font-family: monospace;
+}
+
+h3 {
+    font-family: monospace;
+}
+
+h4 {
+    font-family: monospace;
+}
+
+h5 {
+    color: mediumseagreen;
+    font-family: fantasy
+}
+
+p {
+    font-family: monospace;
+    color: lightcoral;
+    font-size: 15;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.travel_mainDiv {
+    float: left;
+    width: 30%;
+    padding: 5px;
+    border: 1px solid lightseagreen;
+}
+
+#achievementsID {
+    padding-bottom: 10px;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.movie_text span {
+    color: cornflowerblue
+}
+
+.travel_mainDiv , .travel_mainDiv p
+{
+    margin-left: 20px;
+}
+
+i
+{
+    font-family: monospace;
+}
+
+.enviornment_li
+{
+  margin-top: 13px;
+}
+
+
+.enviornment_li img
+{
+    border-radius: 25px;
+}
+
+.enviornment_li p
+{
+    margin-top:10px;
+}
